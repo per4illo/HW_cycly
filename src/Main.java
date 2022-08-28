@@ -18,15 +18,15 @@ public class Main {
         }
         System.out.println();
 
-        int day = 2022;
+        int day = 2021;
         int j = 0;
         int day100 = day + 100;
         day = day - 200;
         while ( j < day100 ) {
-            if (j > day && j < day100)
-            System.out.println(j);
-            j = j + 79;
-
+            if (j > day && j < day100) {
+                System.out.println(j);
+                j = j + 79;
+            }
         }
 
     }
